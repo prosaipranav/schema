@@ -5,11 +5,9 @@ st.markdown("""
             <style>
                 .block-container {
                         padding-top: 0rem;
-                        padding-bottom: 2rem;
+                        padding-bottom: 2rem;   # this is to remove that blank space on top of the title 
                         padding-left: 5rem;
                         padding-right: 5rem;
-                        background-color: #f9f9f9; /* Light background color */
-                        color: #000000; /* Dark text color */
                     }
             </style>
             """, unsafe_allow_html=True)
